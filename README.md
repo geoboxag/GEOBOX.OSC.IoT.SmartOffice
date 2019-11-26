@@ -19,12 +19,14 @@ Für das Messen der Daten kommen verschiedene Sensorem mit dem WeMos D1 mini (ES
 ## Temperatur
 - WeMos D1 mini (ESP8266 NodeMcu Lua Board)
 - DHT22 Temperatur und Luftfeuchtigkeitssensor
-- >> GEOBOX.OSC.IoT.Sensor.DHT22
+- Projek: GEOBOX.OSC.IoT.Sensor.DHT22
+
 ### Verkabelung
 | WeMos | DHT22 |
 |-------|-----|
 | 3V    | VCC |
 | G     | GND |
 | D4    | DOUT |
+
 
 
