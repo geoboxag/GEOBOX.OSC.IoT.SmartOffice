@@ -23,5 +23,5 @@
 /* -------------------------------------------------------------- */
 // DHT Sensor
 #define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
-// PIN mit dem "Data" des DHT22 verbunden ist
-#define DHTPin 4    
+// PIN mit dem "Data" des DHT22 verbunden ist (D4 = 2; D2 = 4)
+#define DHTPin 2
