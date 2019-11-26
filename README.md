@@ -47,6 +47,44 @@ Für das Messen der Daten kommen verschiedene Sensorem mit dem WeMos D1 mini (ES
 | G     | GND |
 | D4    | DOUT |
 
+## GEOBOX Si7021 - Temperatur
+### Bauteile
+- WeMos D1 mini (ESP8266 NodeMcu Lua Board)
+- Si7021 Hochgenauer Temperatursensor und Luftfeuchtigkeitssensor
+
+### Code Projekt
+- GEOBOX.OSC.IoT.Sensor.SI7021
+
+### Verkabelung
+| WeMos | SI7021 |
+|-------|-----|
+| 3V    | VIN |
+| G     | GND |
+| D1    | SCL |
+| D2    | SDA |
+
+## GEOBOX MQ135 - Temperatur, Luftfeuchtigkeit und Luftqualität
+### Bauteile
+- WeMos D1 mini (ESP8266 NodeMcu Lua Board)
+- DHT22 Temperatur und Luftfeuchtigkeitssensor
+- MQ135 CO2 Gas/Luftqualitätsensor
+
+### Code Projekt
+- GEOBOX.OSC.IoT.Sensor.MQ135
+
+### Verkabelung
+| WeMos | DHT22 |
+|-------|-----|
+| 3V    | VCC |
+| G     | GND |
+| D4    | DOUT |
+
+| WeMos | MQ135 |
+|-------|-----|
+| 5V    | VCC |
+| G     | GND |
+| -     | D0  |
+| A0    | A0  |
 
 # Bestellliste
 Alle Bauteile können im Online-Shop bastelgarage.ch bestellt werden:
